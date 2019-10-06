@@ -22,7 +22,7 @@ class Artist
   #   @@artists.detect{|a| a.name == name}
   # end
 
-  def self.all
+  def self.class.all
     @@artists
   end
 
